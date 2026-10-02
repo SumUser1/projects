@@ -1,1 +1,2 @@
-# projects
+# Some projects I've made:
+Uhh...
