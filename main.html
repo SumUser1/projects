@@ -12,8 +12,8 @@
     <body>
         <!-- your code goes here... -->
         <script type="py">
-            import winsound
-            # Play A4 (440 Hz) for 1 second
+            import pyodide_js
+            await pyodide_js.loadPackage('winsound')
             winsound.Beep(440, 1000)
         </script>
     </body>
