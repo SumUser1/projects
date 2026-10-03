@@ -13,8 +13,10 @@
         <!-- your code goes here... -->
         <script type="py">
             import pyodide_js
-            await pyodide_js.loadPackage('winsound')
-            winsound.Beep(440, 1000)
+            def bleep():
+                await pyodide_js.loadPackage('winsound')
+                winsound.Beep(440, 1000)
+            bleep()
         </script>
     </body>
 </html>
